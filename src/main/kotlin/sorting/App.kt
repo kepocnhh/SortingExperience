@@ -2,6 +2,7 @@ package sorting
 
 import sorting.algorithm.BubbleExSort
 import sorting.algorithm.BubbleSort
+import sorting.algorithm.CocktailShakerSort
 import sorting.algorithm.StupidSort
 import sorting.common.SortingAlgorithm
 import java.util.Random
@@ -87,7 +88,8 @@ fun main() {
     sort(
         algorithms = setOf(
             BubbleSort,
-            BubbleExSort
+            BubbleExSort,
+            CocktailShakerSort
         ),
         size = 20_000, sourceType = sourceType
     )
